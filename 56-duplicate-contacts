@@ -1,0 +1,7 @@
+public Boolean duplicateContacts(Contact c1, Contact c2) {
+    //code here
+    if(c1.email == c2.email){
+        return true;
+    }
+    return false;
+}
