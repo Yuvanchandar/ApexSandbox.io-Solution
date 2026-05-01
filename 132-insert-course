@@ -1,6 +1,6 @@
 public Id insertCourse(String name, String details, Integer credits) {
 
-    if(credits > 4 && credits < 1){
+    if(credits > 4 || credits < 1){
         return null;
     }
     // code here
